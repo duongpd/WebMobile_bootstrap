@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 ,user-scalable=0">
+    <title>Mobile bootstrap</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        .bordered {
+            border: 1px solid #0094ff;
+        }
+
+        li:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div style="margin:20px">
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">VTV24</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse" style="margin-right:20px">
+                        <ul class="nav navbar-nav navbar-right hover">
+                            <li class="dropdown">
+                                <a data-toggle="dropdown">Quản lí sản xuất<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a>Lịch máy</a></li>
+                                    <li><a>Lịch xe</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="quanLyDeTai.html">Quản lí đề tài/đề cương</a></li>
+                            <li><a>Gợi ý đề tài</a></li>
+                            <li><a>Quản lí kế hoạch</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </nav>
+            </div>
+            <div class="row" style="padding-top:40px">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <span class="glyphicon glyphicon-comment" style="margin-left:2px"></span><a href="#" style="color:white"> Thông tin nội bộ VTV</a>
+                    </div>               
+                    <table class="table table-bordered table-hover ">
+                        <tr>
+                            <td>
+                                <div class="col-xs-2">
+                                    <img src="image/10463286_vd1-a5071-1427336872036_15-06-05.jpg" class="img-thumbnail" />
+                                </div>
+                                <div class="col-xs-9">
+                                    <h5><a href="#">Đây lại nội dung 1</a></h5>
+                                    <div style="font-size:12px">
+                                        <i class="glyphicon glyphicon-calendar"> 29/05/2015 09:00 AM</i>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="col-xs-2">
+                                    <img src="image/10463286_vd1-a5071-1427336872036_15-06-05.jpg" class="img-thumbnail" />
+                                </div>
+                                <div class="col-xs-9">
+                                    <h5><a href="#">Đây lại nội dung 2</a></h5>
+                                    <div style="font-size:12px">
+                                        <i class="glyphicon glyphicon-calendar"> 29/06/2015 09:00 AM</i>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <span class="glyphicon glyphicon-tasks" style="margin-left:2px"></span><a href="quanLyDeTai.html" style="color:white"> Quản lí đề tài/đề cương</a>
+                    </div>
+                    <table class="table table-bordered table-hover ">
+                        <tr><td>Đây là nội dung 1</td></tr>
+                        <tr><td>Đây là nội dung 2</td></tr>
+                        <tr><td>Đây là nội dung 3</td></tr>
+                    </table>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <span class="glyphicon glyphicon-tasks" style="margin-left:2px"></span><a href="#" style="color:white"> Quản lí sản xuất</a>
+                    </div>
+
+                    <table class="table table-bordered table-hover ">
+                        <tr><td>Đây là nội dung 1</td></tr>
+                        <tr><td>Đây là nội dung 2</td></tr>
+                        <tr><td>Đây là nội dung 3</td></tr>
+                    </table>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <span class="glyphicon glyphicon-flash" style="margin-left:2px"></span><a href="#" style="color:white"> Gợi ý đề tài</a>
+                    </div>
+
+                    <table class="table table-bordered table-hover ">
+                        <tr><td>Đây là nội dung 1</td></tr>
+                        <tr><td>Đây là nội dung 2</td></tr>
+                        <tr><td>Đây là nội dung 3</td></tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div><!--/.container-fluid -->
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\daiDuong\documents\visual studio 2013\Projects\WebMobile_bootstrap\WebMobile_bootstrap\bin\WebMobile_bootstrap.dll.config
+C:\Users\daiDuong\documents\visual studio 2013\Projects\WebMobile_bootstrap\WebMobile_bootstrap\bin\WebMobile_bootstrap.dll
+C:\Users\daiDuong\documents\visual studio 2013\Projects\WebMobile_bootstrap\WebMobile_bootstrap\bin\WebMobile_bootstrap.pdb
+C:\Users\daiDuong\documents\visual studio 2013\Projects\WebMobile_bootstrap\WebMobile_bootstrap\obj\Debug\WebMobile_bootstrap.dll
+C:\Users\daiDuong\documents\visual studio 2013\Projects\WebMobile_bootstrap\WebMobile_bootstrap\obj\Debug\WebMobile_bootstrap.pdb
+C:\Users\daiDuong\documents\visual studio 2013\Projects\WebMobile_bootstrap\WebMobile_bootstrap\obj\Debug\WebMobile_bootstrap.csprojResolveAssemblyReference.cache
+D:\SAVIS\Project\Training\Visual Studio 2013\Projects\WebMobile_bootstrap\WebMobile_bootstrap\bin\WebMobile_bootstrap.dll.config
+D:\SAVIS\Project\Training\Visual Studio 2013\Projects\WebMobile_bootstrap\WebMobile_bootstrap\bin\WebMobile_bootstrap.dll
+D:\SAVIS\Project\Training\Visual Studio 2013\Projects\WebMobile_bootstrap\WebMobile_bootstrap\bin\WebMobile_bootstrap.pdb
+D:\SAVIS\Project\Training\Visual Studio 2013\Projects\WebMobile_bootstrap\WebMobile_bootstrap\obj\Debug\WebMobile_bootstrap.dll
+D:\SAVIS\Project\Training\Visual Studio 2013\Projects\WebMobile_bootstrap\WebMobile_bootstrap\obj\Debug\WebMobile_bootstrap.pdb
+D:\SAVIS\Project\Training\Visual Studio 2013\Projects\WebMobile_bootstrap\WebMobile_bootstrap\obj\Debug\WebMobile_bootstrap.csprojResolveAssemblyReference.cache
